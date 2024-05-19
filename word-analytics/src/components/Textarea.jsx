@@ -1,7 +1,13 @@
+import { useState } from "react";
+
 function Textarea() {
-  return <textarea className="textarea" onChange={(e) => {
-    console.log("change event...");
-    console.log(e.target.value);
+  const [text, setText] = useState("");
+
+  return <textarea className="textarea" 
+  value={text}
+  onChange={(e) => {
+    const newText = e.target.value;
+    setText(newText);
   }} 
   placeholder="Enter text here..."
   spellCheck="false"
