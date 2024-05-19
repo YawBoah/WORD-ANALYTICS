@@ -1,4 +1,4 @@
-function Warning(warningText) {
+function Warning({warningText}) {
   return (
     <p className="warning">
       {warningText}
