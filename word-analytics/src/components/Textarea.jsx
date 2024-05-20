@@ -1,8 +1,7 @@
 import { useState } from "react";
 import Warning from "./Warning";
 
-function Textarea() {
-  const [text, setText] = useState("");
+function Textarea({text,setText}) {
   const [warningText, setWarningText] = useState("");
 
   // basic validation
