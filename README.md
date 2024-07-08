@@ -1,5 +1,3 @@
-# WORD-ANALYTICS App
-
 ## Overview
 
 WORD-ANALYTICS is a React application that helps users analyze text by providing statistics such as the number of words, number of characters, and remaining characters for Instagram and Facebook posts based on their respective character limits.
