@@ -2,6 +2,8 @@
 
 WORD-ANALYTICS is a React application that helps users analyze text by providing statistics such as the number of words, number of characters, and remaining characters for Instagram and Facebook posts based on their respective character limits.
 
+![image](https://github.com/YawBoah/WORD-ANALYTICS/assets/126890146/dee12e78-b514-4149-9656-7e376da10697)
+
 ## Features
 
 - **Word Count**: Displays the total number of words in the text.
