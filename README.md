@@ -53,11 +53,9 @@ To set up the project locally, follow these steps:
    ```
 
 ## Usage
-
 After starting the development server, you can view the application in your browser by navigating to `http://localhost:3000`.
 
 ### App Structure
-
 ```jsx
 import './App.css';
 import Container from './components/Container';
